@@ -1,0 +1,16 @@
+The following CSS code snippet causes an unexpected layout issue in some browsers.  The `.container` class is intended to center its contents both horizontally and vertically, but the centering is inconsistent across different browser versions and rendering engines.  
+```css
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.content {
+  background-color: lightblue;
+  padding: 20px;
+}
+```
